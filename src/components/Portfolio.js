@@ -56,7 +56,7 @@ export default function Portfolio() {
     <div className={darkMode ? "bg-dark text-light min-vh-100" : "bg-light text-dark min-vh-100"}>
       {/* Navbar */}
       <nav className={`navbar navbar-expand-lg ${darkMode ? "navbar-dark bg-dark" : "navbar-light bg-white"} px-4 shadow-sm`}>
-        <a className="navbar-brand fw-bold fs-4" href="#">H. AJAY</a>
+      <a className="navbar-brand fw-bold fs-4" href="/">H. AJAY</a>
         <div className="ms-auto d-flex gap-3 align-items-center">
           <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-reset">
             <Github />
